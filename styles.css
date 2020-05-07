@@ -87,7 +87,7 @@ header > .container{
 
 .hero-text{
     position: absolute;
-    top: 90%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-45%);
     text-align: center;
@@ -112,9 +112,9 @@ header > .container{
    
 }
 .division{
-    width: 200px;
+    width: 300px;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%,-10%);
     text-align: center;
