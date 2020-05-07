@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+
+a{
+    color: #fff !important;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(16,29,44,.95),rgba(16,29,44,.95));
+    background-size: cover;
+    position: relative;
+}
+
+header > .container{
+    position: relative;
+    height: 100%;
+    padding: 0;
+
+}
+.navbar-brand{
+    position: absolute;
+    width: 100%;
+    max-width: 50px;
+    top: 17px;
+    left: 5%;
+    transform: translateX(-5%);
+    transition: opacity 650ms;
+}
+.navbar-brand:hover{
+    opacity: .8;
+}
+
+.hamburger-menu{
+    position: fixed;
+    top: 25px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color:#101d2c;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 999;
+}
+.hamburger-menu i{
+    font-size: 30px;
+    color: rgba(187, 184, 9, 0.95);
+    margin: auto;
+}
+.hamburger-menu .fa-times{
+    display: none;
+}
+.hamburger-menu .fa-times.open{
+    display: block;
+}
+.hamburger-menu .fa-bars.open{
+    display: none;
+}
+
+
+
+.nav-list{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    list-style: none;
+    background-color: #101d2c;
+    z-index: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 700ms;
+
+}
+
+.nav-list.open{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.hero-text{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    text-align: center;
+
+}
+
+.btn{
+    width: 100px;
+    padding: 5px 0 !important;
+    border: 1px solid #c69963;
+}
+
+
+.hero-text-2{
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%,-24%);
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.map{
+    top: -839px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+    
+
+}
+.khulna{
+    max-width: 80%;
+    position: relative;
+    top: 986px;
+    left: 0;
+}
+
+.dhaka{
+    max-width: 80%;
+    position: relative;
+    top: 424px;
+    left: 0;
+}
+
+.mymensing{
+    max-width: 80%;
+    position: relative;
+    top: -139px;
+    left: 0px;
+}
+
+.rangpur{
+    max-width: 80%;
+    position: relative;
+    top: -701px;;
+    left:0;
+}
+
+.rajshahi{
+    max-width: 80%;
+    position: relative;
+    top: -1264px;
+    left:0;
+}
+
+.chitagong{
+    max-width: 80%;
+    position: relative;
+    top: -1827px;
+    left:0;
+}
+
+.barishal{
+    max-width: 80%;
+    position: relative;
+    top: -2389px;
+    left:0;
+}
+.sylhet{
+    max-width: 80%;
+    position: relative;
+    top: -2952px;
+    left:0;
+}
+
